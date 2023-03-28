@@ -18,6 +18,8 @@ logger();
 
 function fruitProcessor(apples, oranges) {
     console.log(apples, oranges);
+    const juice = 'Juice with ${oranges} oranges.'
+    return juice;
 }
 
-
+fruitProcessor(5, 0);
