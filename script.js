@@ -16,4 +16,8 @@ function logger() {
 logger();
 logger();
 
+function fruitProcessor(apples, oranges) {
+    console.log(apples, oranges);
+}
+
 
