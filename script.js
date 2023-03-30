@@ -56,7 +56,7 @@
 //  }
 
 //  console.log(retirementYear(2003));
-
+/*
 
 function cutFruitPieces(fruit) {
    return fruit * 4;
@@ -70,3 +70,20 @@ function fruitProcessor(apples, oranges) {
      return juice;
  }
  console.log(fruitProcessor(2, 3));
+*/
+// const calcAge = function (birthYear) {
+//    return 2023 - birthYear;
+// }
+
+//  const retirementYear =  function(birthYear){
+//      const age = calcAge(birthYear)
+//     const retirement = 60 - age;
+//     return retirement;
+//   }
+
+// console.log(retirementYear(2003));
+
+
+const  calcAge3 = birthYear => 2037 - birthYear;
+  const age3 = calcAge3(2003)
+   console.log(age3);
