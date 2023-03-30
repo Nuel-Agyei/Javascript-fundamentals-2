@@ -84,6 +84,24 @@ function fruitProcessor(apples, oranges) {
 // console.log(retirementYear(2003));
 
 
-const  calcAge3 = birthYear => 2037 - birthYear;
-  const age3 = calcAge3(2003)
-   console.log(age3);
+//    const  calcAge3 = birthYear => 2037 - birthYear;
+//    const age3 = calcAge3(2003)
+//    console.log(age3);
+
+//Challenge
+let calcAvg = (num1, num2, num3)=> (num1 + num2 + num3)/3;
+
+const avgDolphin = calcAvg(44, 23, 71);
+const avgKoalas = calcAvg(65, 54, 49);
+console.log(avgDolphin, avgKoalas);
+
+if (avgDolphin >= 2*avgKoalas) {
+   console.log('Dolphins win');
+} else if(avgKoalas >= 2*avgDolphin){
+   console.log('Koalas win');
+} else{
+   console.log('Draw');
+}
+
+
+
