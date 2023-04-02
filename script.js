@@ -89,19 +89,33 @@ function fruitProcessor(apples, oranges) {
 //    console.log(age3);
 
 //Challenge
-let calcAvg = (num1, num2, num3)=> (num1 + num2 + num3)/3;
+// let calcAvg = (num1, num2, num3)=> (num1 + num2 + num3)/3;
 
-const avgDolphin = calcAvg(44, 23, 71);
-const avgKoalas = calcAvg(65, 54, 49);
-console.log(avgDolphin, avgKoalas);
+// const avgDolphin = calcAvg(44, 23, 71);
+// const avgKoalas = calcAvg(65, 54, 49);
+// console.log(avgDolphin, avgKoalas);
 
-if (avgDolphin >= 2*avgKoalas) {
-   console.log('Dolphins win');
-} else if(avgKoalas >= 2*avgDolphin){
-   console.log('Koalas win');
-} else{
-   console.log('Draw');
-}
+// if (avgDolphin >= 2*avgKoalas) {
+//    console.log('Dolphins win');
+// } else if(avgKoalas >= 2*avgDolphin){
+//    console.log('Koalas win');
+// } else{
+//    console.log('Draw');
+// }
+
+
+//Arrays
+const friend1 = 'Melody';
+const friend2 = 'Augustine';
+const friend3 =  'Erica';
+const friend4 = 'Keli';
+
+const friends = ['Melody', 'Augustine', 'Erica', 'Keli'];
+
+console.log(friends);
+
+const food = new Array[Jollof, beans, Fufu, Banku];
+console.log(food[0]);
 
 
 
