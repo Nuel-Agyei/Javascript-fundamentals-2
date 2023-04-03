@@ -105,17 +105,33 @@ function fruitProcessor(apples, oranges) {
 
 
 //Arrays
-const friend1 = 'Melody';
-const friend2 = 'Augustine';
-const friend3 =  'Erica';
-const friend4 = 'Keli';
+// const friend1 = 'Melody';
+// const friend2 = 'Augustine';
+// const friend3 =  'Erica';
+// const friend4 = 'Keli';
 
 const friends = ['Melody', 'Augustine', 'Erica', 'Keli'];
 
+// console.log(friends);
+
+// const food = new Array[Jollof, beans, Fufu, Banku];
+// console.log(food[0]);
+
+//Exercise
+// const calcAge = function (birthYear) {
+//    return 2023 - birthYear;
+// }
+// const years = [1996, 1998, 2003, 2004, 1967];
+
+
+//Adds elements
+friends.push('John');
 console.log(friends);
 
-const food = new Array[Jollof, beans, Fufu, Banku];
-console.log(food[0]);
+friends.unshift('William');
 
+//Remove elements
+friends.pop();//Removes last element
+friends.shift();//removes first element
 
-
+ 
