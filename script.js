@@ -125,13 +125,16 @@ const friends = ['Melody', 'Augustine', 'Erica', 'Keli'];
 
 
 //Adds elements
-friends.push('John');
-console.log(friends);
+// friends.push('John');
+// console.log(friends);
 
-friends.unshift('William');
+// friends.unshift('William');
 
-//Remove elements
-friends.pop();//Removes last element
-friends.shift();//removes first element
+// //Remove elements
+// friends.pop();//Removes last element
+// friends.shift();//removes first element
 
+const calcTip = function (bill) {
+   return bill <= 300 && >= 300 ? bill * .15 : bill *.2;
+}
  
